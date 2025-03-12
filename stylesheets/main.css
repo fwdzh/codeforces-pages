@@ -1,0 +1,106 @@
+.top-section {
+    display: flex;
+    align-items: center;
+    margin: 5px 45px;
+}
+
+.top-corner {
+    font-size: 17px;
+    margin-left: auto;
+}
+
+.navbar {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin: 0 45px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    /* border-color: red; */
+}
+
+.navbar nav {
+    margin: 5px 10px;
+    font-size: 13px;
+}
+
+.navbar nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.main-content {
+    display: flex;
+}
+
+.side-bar {
+    margin-left: auto;
+    margin-top: 30px;
+    margin-right: 45px;
+}
+
+.sidebar-section {
+    font-size: 15px;
+}
+
+.sidebar-section .info,
+.sidebar-section .title {
+    border: 0.5px solid blue;
+    width: 300px;
+    box-sizing: border-box;
+    /* 设置边框计入大小，否则改了padding之后会不对齐 */
+    font-weight: 700;
+    color: #3B5998;
+}
+
+.side-bar .info {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.side-bar .title {
+    border-radius: 7px 7px 0 0;
+    /* 只设置上面两个角的是圆的 */
+    padding: 1em;
+}
+
+.side-bar .info a {
+    font-weight: 400;
+    /* font-size:  */
+}
+
+.a-title {
+    color: #3B5998;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.c-box {
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.input-section {
+    /* margin: 15px; */
+    margin: 15px 0;
+}
+
+.input-section label {
+    width: 100px;
+    display: inline-block;
+    text-align: right;
+}
+
+footer {
+    margin-top: 200px;
+    align-items: center;
+    /* text-align: center; */
+    justify-self: center;
+}
